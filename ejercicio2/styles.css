@@ -1,0 +1,165 @@
+header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    height: 200px;
+    color: rgb(17, 49, 233);
+    background-image: url("images/temperatura.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+nav{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgb(138, 166, 185);
+    padding: 20px 0;
+    border-bottom: 2px solid rgb(17, 49, 233);
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:first-child {
+    background-color: #0a63bb;
+}
+
+nav a:last-child {
+    background-color: #209ee7; 
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+body{
+    background-color: rgb(186, 234, 251);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.celsius-a-farenheit{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: white;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a63bb;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+.celsius-a-farenheit h3{
+    font-size: 40px;
+    color: rgb(186, 215, 255);
+}
+
+.celsius-a-farenheit input[type="number"]{
+    height: 30px;
+    width: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #6fb8e2;
+    background-color: white;
+    text-align: center;
+}
+
+.celsius-a-farenheit textarea{
+    height: 100px;
+    width: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #209ee7;
+    resize: none;
+    text-align: left;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.celsius-a-farenheit button{
+    height: 50px;
+    width: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: #6fb8e2;
+    border-color: #6fb8e2;
+    border-radius: 10px;
+}
+
+/*de farenheit a celsius*/
+
+.farenheit-a-celsius{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: white;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #209ee7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    display: none;
+}
+
+.farenheit-a-celsius h3{
+    font-size: 40px;
+    color: rgb(5, 78, 180);
+}
+
+.farenheit-a-celsius input[type="number"]{
+    height: 30px;
+    width: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #6fb8e2;
+    background-color: white;
+    text-align: center;
+}
+
+.farenheit-a-celsius textarea{
+    height: 100px;
+    width: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #209ee7;
+    resize: none;
+    text-align: left;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.farenheit-a-celsius button{
+    height: 50px;
+    width: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: #6fb8e2;
+    border-color: #6fb8e2;
+    border-radius: 10px;
+}

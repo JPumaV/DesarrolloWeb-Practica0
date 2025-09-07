@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+        CONVERSOR DE TEMPERATURA
+    </header>
+
+    <nav>
+        <a href="#" onclick="farenheit()">De Celsius a Farenheit</a>
+        <a href="#" onclick="celsius()">De Farenheit a Celsius</a>
+    </nav>
+<body>
+    
+    <div class="celsius-a-farenheit" id="celsiusAFarenheit">
+        <h3>De Celsius a Farenheit</h3>
+        <p>Ingrese la temperatura en Celsius: 
+        <input type="number" id="celsius"> °C
+        </p>
+        <button onclick="calcularFarenheit()">
+            Calcular Temperatura
+        </button><br><br>
+        <textarea name="resultado" readonly id="resultadoFarenheit">
+            Aca aparecera el resultado
+        </textarea>
+    </div>
+
+    <div class="farenheit-a-celsius" id="farenheitACelsius">
+        <h3>De Farenheit a Celsius</h3>
+        <p>Ingrese la temperatura en Farenheit: 
+        <input type="number" id="farenheit"> °F
+        </p>
+        <button onclick="calcularCelsius()">
+            Calcular Temperatura
+        </button><br><br>
+        <textarea name="resultado" readonly id="resultadoCelsius">
+            Aca aparecera el resultado
+        </textarea>
+    </div>
+
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>

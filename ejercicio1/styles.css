@@ -1,0 +1,50 @@
+header{
+    height: 200px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(76, 123, 76);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: rgb(232, 100, 100);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ingreso-datos {
+    width: 700px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    background-color: rgb(63, 123, 63);
+    color: rgb(232, 225, 225);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ingreso-datos input[type = "number"]{
+    height: 30px;
+    width: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(247, 45, 78);
+}
+
+.ingreso-datos button{
+    width: 300px;
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(229, 68, 95);
+    border-color: rgb(229, 68, 95);
+    border-radius: 10px;
+}
